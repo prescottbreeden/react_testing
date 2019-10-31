@@ -19,7 +19,7 @@ describe('CommentBox Component', () => {
   });
 
   it('renders a Comment Component for each comment', () => {
-    
+
   });
 
 });
