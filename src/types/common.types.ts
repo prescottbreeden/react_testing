@@ -3,7 +3,6 @@ export interface CommentListProps {
 };
 
 export interface CommentProps {
-  key: number;
   comment: string;
 }
 
