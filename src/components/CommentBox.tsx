@@ -30,7 +30,7 @@ const CommentBox: React.FC<CommentBoxProps> = (props) => {
       </div>
       <div>
         <button 
-          className='button'
+          className='button fetch-comments'
           type="button"
           onClick={() => fetchComments()}
         >

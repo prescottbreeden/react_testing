@@ -8,7 +8,6 @@ const CommentList: React.FC<CommentListProps> = (props) => {
     <div>
         <ul>
           {comments.map((comment) => { 
-            console.log(comment);
             return <li key={comment} className={'comment'}>{comment}</li>
           })}
       </ul>
